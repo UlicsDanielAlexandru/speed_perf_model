@@ -27,7 +27,7 @@ parser.add_argument('--dataset_root', type=str,
 parser.add_argument('--size', type=tuple,
                     default=(256, 448))
 parser.add_argument('--batchsize', type=int, default=24)
-parser.add_argument('--video_time_clips', type=int, default=5)
+parser.add_argument('--video_time_clips', type=int, default=6)
 
 parser.add_argument('--save_path', type=str, default='/tmp/work/')
 
